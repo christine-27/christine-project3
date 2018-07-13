@@ -1,0 +1,1455 @@
+
+body {
+  margin: 0;
+  padding:0;
+  background-image:url('../img/bg1.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+/*----- Global -------*/
+.container {
+  max-width: 90em;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+
+
+
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.8rem;
+  text-align: center;
+
+}
+/* -----Global end-------*/
+
+header {
+  background-color: #dbe9d8;
+  width: 100vw;
+
+  position: absolute;
+
+
+	/* opacity start*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.80;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+	/* opacity end*/
+}
+
+.toggle {
+  margin-top: 10px;
+  padding: 5px 10px;
+  float: right;
+  background: #fff;
+  box-sizing: border-box;
+  font-size: 30px;
+  display: none;
+  border-radius: 6px;
+  border: 1px solid #f4f4f4;
+}
+#logo {
+  float: left;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+#logo img {
+  max-width: 100%;
+  height: 50px;
+  position: absolute;
+}
+
+nav {
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+
+}
+nav a {
+  text-decoration: none;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-right: 20px;
+  color:#000;
+}
+
+nav a:active {
+  color:aqua;
+}
+
+#showcase img {
+  vertical-align: middle;
+  max-width:100%;
+  margin-top: 90px;
+  height: 100vh;
+}
+
+#tourist_spots {
+  margin-left: 50px;
+}
+.tourist_details {
+  display: block;
+  width:80%;
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+.tourist_details img{
+  float:right;
+  margin-left: 10px;
+  width:350px;
+  height:200px;
+  border: #f2cbbc 8px solid;
+  box-shadow:20px 20px 10px grey;
+  cursor: pointer;
+  overflow: hidden;
+}
+.tourist_details1 {
+  display: block;
+  width:80%;
+  margin-left:80px;
+  margin-bottom: 50px;
+}
+.tourist_details1 img{
+  float:left;
+  margin-right: 20px;
+  width: 350px;
+  height: 200px;
+  border: #f2cbbc 8px solid;
+  box-shadow:20px 20px 10px grey;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.tourist_details2 {
+  display: block;
+  width:80%;
+  margin-left:80px;
+    margin-bottom: 90px;
+}
+.tourist_details2 img{
+  float:right;
+  margin-left: 10px;
+  width:350px;
+  height:200px;
+  border: #f2cbbc 8px solid;
+  box-shadow:20px 20px 10px grey;
+  cursor: pointer;
+  overflow: hidden;
+
+}
+
+.tourist_details3 {
+  display: block;
+  width:80%;
+  margin-left:80px;
+  margin-bottom: 100px;
+
+}
+.tourist_details3 img{
+  float:left;
+  margin-right: 20px;
+  width:350px;
+  height:200px;
+  border: #f2cbbc 8px solid;
+  box-shadow:20px 20px 10px grey;
+  overflow: hidden;
+}
+.tourist_details4 {
+  display: block;
+  width:80%;
+  margin-left:80px;
+  margin-bottom: 50px;
+}
+.tourist_details4 img{
+  float:right;
+  margin-left: 10px;
+  width:350px;
+  height:200px;
+  border: #f2cbbc 8px solid;
+  box-shadow:20px 20px 10px grey;
+  cursor: pointer;
+  overflow: hidden;
+
+}
+
+.tourist_details5 {
+  display: block;
+  width:80%;
+  margin-left:80px;
+  margin-bottom: 80px;
+
+}
+.tourist_details5 img{
+  float:left;
+  margin-right: 20px;
+  width:350px;
+  height:200px;
+  border: #f2cbbc 8px solid;
+  box-shadow:20px 20px 10px grey;
+  cursor: pointer;
+  overflow: hidden;
+
+}
+.tourist_details6 {
+  display: block;
+  width: 80%;
+  margin-left: 80px;
+   margin-bottom: 20px;
+}
+.tourist_details6 img{
+  float:right;
+  margin-left: 10px;
+  width:350px;
+  height:200px;
+  border: #f2cbbc 8px solid;
+  box-shadow:20px 20px 10px grey;
+   cursor: pointer;
+   overflow: hidden;
+
+}
+
+.tourist_details7 {
+  display: block;
+  width:80%;
+  margin-left:80px;
+  margin-bottom: 80px;
+
+}
+
+.tourist_details7 img{
+  float:left;
+  margin-right: 20px;
+  width: 350px;
+  height: 200px;
+  border: #f2cbbc 8px solid;
+  box-shadow:20px 20px 10px grey;
+  cursor: pointer;
+  overflow: hidden;
+}
+footer {
+  background-color: #dbc3d0;
+  opacity: 0.9;
+  width: 100vw;
+  height: 60px;
+}
+footer p {
+  padding: 25px 0 5px 0;
+  text-align: center;
+}
+@media(min-width: 965px) and (max-width: 1024px){
+    #logo {
+      margin-top: 0;
+      margin-left: 20px;
+    }
+    .toggle {
+      display: block;
+      cursor: pointer;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    nav ul {
+      display: none;
+      padding-top: 50px;
+
+      }
+    nav ul li {
+      display: block;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: left;
+      width: 100%;
+      margin-right: 30px;
+
+    }
+    nav a {
+      border-bottom: 1px solid rgba(100,100,100,0.3);
+
+    }
+    .active a {
+      display: block;
+    }
+    ul li a:hover {
+      color: #1FB2B6;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+#tourist_spots {
+  margin-left: 5px;
+}
+
+}
+@media(min-width: 942px) and (max-width: 963px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  #tourist_spots {
+  margin-left: 5px;
+  }
+}
+
+@media(min-width: 871px) and (max-width: 899px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+#tourist_spots {
+margin-left: 5px;
+  }
+}
+
+@media (min-width: 856px) and (max-width: 870px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 120px;
+  max-width: 100%;
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 50px;
+  width: 92%;
+  }
+}
+
+
+@media (min-width: 800px) and (max-width: 854px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 120px;
+  max-width: 100%;
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 50px;
+  width: 88%;
+  }
+}
+@media (min-width: 750px) and (max-width: 799px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 120px;
+  max-width: 100%;
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 20px;
+  width: 90%;
+  }
+}
+@media (min-width: 700px) and (max-width: 749px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 100px;
+  max-width: 100%;
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 3px;
+  width: 90%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 699px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 90px;
+  max-width: 100%;
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 20px;
+    right: 20px;
+  width: 90%;
+  }
+}
+@media (min-width: 600px) and (max-width: 649px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 40px;
+  max-width: 100%;
+
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 40px;
+  width: 86%;
+  }
+  footer {
+    height: 50%;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 599px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 30px;
+  max-width: 100%;
+
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 20px;
+  width: 88%;
+  }
+  footer {
+    height: 50%;
+  }
+}
+@media (min-width: 500px) and (max-width: 549px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 5px;
+  max-width: 100%;
+
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 20px;
+  width: 88%;
+
+  }
+  footer {
+    height: 50%;
+  }
+}
+
+
+@media (min-width: 450px) and (max-width: 499px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 5px;
+  max-width: 100%;
+
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 5px;
+  width: 88%;
+  }
+  footer {
+    height: 50%;
+  }
+}
+@media (min-width: 400px) and (max-width: 449px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  max-width: 100%;
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  right: 15px;
+
+
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  left: 5px;
+  width: 92%;
+  }
+  footer {
+    height: 60px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 399px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 30px;
+
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+
+
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  max-width: 100%;
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+  left: 2px;
+  z-index: 0;
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  width: 92%;
+  right: 13px;
+  }
+  footer {
+    height: 60px;
+  }
+}
+@media (min-width: 300px) and (max-width: 349px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 100%;
+    margin-right: 70px;
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+    font-size: 14px;
+
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  max-width: 100%;
+  display: block;
+  float: none;
+  margin: 0;
+  position: relative;
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  width: 95%;
+  right: 20px;
+  }
+  footer {
+    height: 60px;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 299px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 100%;
+    margin-right: 60px;
+
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+      font-size: 12px;
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  max-width: 100%;
+  display: block;
+  float: none;
+  margin: 0;
+
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  width: 95%;
+  right: 20px;
+  }
+  footer {
+    height: 100%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 249px){
+  #logo {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  nav ul {
+    display: none;
+    padding-top: 50px;
+
+
+
+    }
+  nav ul li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    margin-right: 30px;
+
+
+  }
+  nav a {
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
+  }
+  .active a {
+    display: block;
+  }
+  ul li a:hover {
+    color: #1FB2B6;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  #tourist_spots {
+    text-align: center;
+
+
+
+}
+.tourist_details img,
+.tourist_details1 img,
+.tourist_details2 img,
+.tourist_details3 img,
+.tourist_details4 img,
+.tourist_details5 img,
+.tourist_details6 img,
+.tourist_details7 img {
+  max-width: 100%;
+  display: block;
+  float: none;
+  margin: 0;
+
+}
+
+.tourist_details,
+.tourist_details1,
+.tourist_details2,
+.tourist_details3,
+.tourist_details4,
+.tourist_details5,
+.tourist_details6,
+.tourist_details7 {
+  margin: 5px 0;
+  position: relative;
+  width: 95%;
+  right: 20px;
+  }
+  footer {
+    height: 60px;
+  }
+}
