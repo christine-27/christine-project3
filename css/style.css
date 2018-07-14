@@ -6,8 +6,9 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  max-width: 100%;
+  width: 100%;
   overflow-x: hidden;
+  display: block;
 
 }
 /*----- Global -------*/
@@ -16,9 +17,6 @@ body {
   margin: auto;
   display: block;
   box-sizing: border-box;
-
-
-
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -33,19 +31,10 @@ h3 {
 /* -----Global end-------*/
 
 header {
-  background-color: #dbe9d8;
+  background-color: #c0dfd9;
   width: 100vw;
-
   position: absolute;
-
-
-	/* opacity start*/
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=80);
-  -moz-opacity: 0.80;
-  -khtml-opacity: 0.8;
   opacity: 0.8;
-	/* opacity end*/
 }
 
 .toggle {
@@ -80,6 +69,7 @@ nav ul li {
   list-style: none;
   display: inline-block;
 
+
 }
 nav a {
   text-decoration: none;
@@ -90,15 +80,32 @@ nav a {
   color:#000;
 }
 
+nav ul li a:hover {
+  border-bottom: 1px solid rgba(100,100,100,0.3);
+  color: #1FB2B6;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+}
+
+
+
 nav a:active {
   color:aqua;
 }
 
+
+#showcase {
+    display: block;
+    text-align: center;
+
+}
 #showcase img {
-  vertical-align: middle;
-  max-width:100%;
+
+  max-width: 100%;
   margin-top: 90px;
-  height: 100vh;
+  z-index: 0;
+  height: auto;
 }
 
 #tourist_spots {
@@ -244,7 +251,7 @@ nav a:active {
   overflow: hidden;
 }
 footer {
-  background-color: #dbc3d0;
+  background-color: #c0dfd9;
   opacity: 0.9;
   width: 100vw;
   height: 60px;
